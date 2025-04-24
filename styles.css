@@ -100,12 +100,24 @@
     align-items: center;
 }
 
+.img-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 120px;
+}
+
+.caption {
+    font-size: 12px;
+    text-align: center;
+}
+
 .info-content img {
     width: 120px;
     height: 120px;
     object-fit: cover;
     border: #3882F6 1px solid;
     border-radius: 16px;
-
 }
 
