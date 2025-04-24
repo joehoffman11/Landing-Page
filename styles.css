@@ -153,3 +153,35 @@
     margin-left: auto;
 }
 
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-body {
+    background-color: #3882F6;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    margin: 32px;
+}
+
+.cta-text {
+    font-size: 36px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text {
+    color: #F9FAF8;
+    font-size: 16px;
+    padding: 32px;
+    text-align: center;
+}
